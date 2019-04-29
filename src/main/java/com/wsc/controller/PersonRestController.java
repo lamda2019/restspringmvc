@@ -22,6 +22,7 @@ public class PersonRestController {
     public Person personJsonToProperties(@RequestBody Person person) {
         // @RequestBody 的内容是 JSON
         // 响应的内容是 Properties
+
         return person;
     }
 
